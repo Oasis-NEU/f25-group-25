@@ -1,24 +1,31 @@
-import Profile from "./pages/profile"
+import NavBar from "./navbar"
+import Dashboard from "./pages/dashboard"
+import './App.css';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import Landing from "./pages/landing";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={
-          <div className="min-h-screen bg-blue-500 flex items-center justify-center">
-            <h1 className="text-4xl font-bold text-black">
-              Tailwind is working!
-            </h1>
+          <div>
+            <NavBar></NavBar>
+            <div className="min-h-screen flex items-center justify-center">
             <Link 
-              to='/profile' 
-              className="ml-4 px-4 py-2 rounded-sm text-center bg-white transition-transform hover:scale-95 hover:cursor-pointer"
-            >
-              View my Profile
-            </Link>
+              to='/dashboard' 
+              className="ml-4 px-4 py-2 rounded-sm text-center shadow-2xl transition-transform hover:scale-105 hover:cursor-pointer"
+            >View my Dashboard</Link>
+            <Link 
+              to='/landing' 
+              className="ml-4 px-4 py-2 rounded-sm text-center shadow-2xl transition-transform hover:scale-105 hover:cursor-pointer"
+            >Landing Page</Link>
           </div>
-        } />
-        <Route path="/profile" element={<Profile />} />
+          </div>
+        }/>
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/landing" element={<Landing />} />
+
       </Routes>
     </BrowserRouter>
   )

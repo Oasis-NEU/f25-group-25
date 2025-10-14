@@ -1,6 +1,6 @@
 function DebtTable() {
     return <div className="flex items-center w-full">
-    <table className='table-auto rounded-md outline-2 mx-auto [&_td]:text-center w-3/4'>
+    <table className='table-auto rounded-md outline-2 mx-auto [&_td]:text-center [&_td]:py-2 [&_th]:py-2 w-3/4'>
         <thead>
             <tr>
                 <th>Person</th>
