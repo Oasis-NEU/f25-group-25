@@ -3,6 +3,7 @@ import Dashboard from "./pages/dashboard"
 import './App.css';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Landing from "./pages/landing";
+import Settings from "./pages/settings";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         }/>
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/landing" element={<Landing />} />
-
+        <Route path='/settings' element={<Settings/>}/>
       </Routes>
     </BrowserRouter>
   )
