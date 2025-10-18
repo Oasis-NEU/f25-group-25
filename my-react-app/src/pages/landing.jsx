@@ -11,19 +11,21 @@ function Landing() {
         </div>
         <div className="flex justify-center mt-20">
             <Link to='/login' className="rounded-md">
-                <button className="cursor-pointer outline-2 px-10 py-2 rounded-md  hover:shadow-2xl hover:text-blue-600 transition-all">Get Started</button>
+                <button className="cursor-pointer px-12 py-3 rounded-md bg-stone-800 text-white hover:shadow-2xl hover:scale-105 hover:bg-blue-600 transition-all duration-300">
+                    Get Started
+                </button>
             </Link>
         </div>
         <div className="flex">
-            <div className="flex flex-col mt-40 ml-40 w-1/3 mb-20 pb-20">
+            <div className="flex flex-col mt-40 ml-40 w-1/3 mb-20 pb-20 hover:scale-105 transition-all duration-300">
                 <p className="pb-4 text-2xl text-shadow-xs">Smart Balance Calculation</p>
                 <p className="text-wrap text-lg">Mutual debts cancel eachother out automatically, allowing you to get a clear understanding of what you owe.</p>
-                <div className="outline-2 h-80 w-full mt-4 rounded-md">*Insert Image*</div>
+                <div className="outline-2 h-80 w-full mt-4 rounded-md hover:shadow-2xl transition-all duration-200">*Insert Image*</div>
             </div>
-            <div className="flex flex-col mt-40 ml-40 w-1/3 mb-20 pb-20">
+            <div className="flex flex-col mt-40 ml-40 w-1/3 mb-20 pb-20 hover:scale-105 transition-all duration-300">
                 <p className="pb-4 text-2xl text-shadow-xs">Simple & Direct</p>
                 <p className="text-wrap text-lg">Link third party payment platforms such as PayPal, Cash App, and Venmo to pay anyone in an instant</p>
-                <div className="outline-2 h-80 w-full mt-4 rounded-md">*Insert Image*</div>
+                <div className="outline-2 h-80 w-full mt-4 rounded-md hover:shadow-2xl transition-all duration-200">*Insert Image*</div>
             </div>
         </div>
 
