@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Landing from "./pages/landing";
 import Settings from "./pages/settings";
 import Login from "./pages/login";
+import AddFriends from "./pages/add_contacts";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/landing" element={<Landing />} />
         <Route path='/settings' element={<Settings/>}/>
         <Route path='/login' element={<Login/>}/>
-
+        <Route path='/add_contacts' element={<AddFriends/>}/>
       </Routes>
     </BrowserRouter>
   )
