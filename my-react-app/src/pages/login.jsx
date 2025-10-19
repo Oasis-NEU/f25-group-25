@@ -28,15 +28,14 @@ function Login() {
                             onChange={() => setShowPass(!showPass)}
                             className={showPass ? "cursor-pointer w-4 h-4 appearance-none outline-1 rounded-full bg-neutral-800" : "cursor-pointer grayscale w-4 h-4 appearance-none outline-1 rounded-full bg-neutral-300"}
                         />
-                        <span>Show Password</span>
+                        <span className="cursor-pointer">Show Password</span>
                     </label>
                     <p className='underline cursor-pointer text-sm'>Forgot password?</p>
                 </div>
 
                 <button
                     type="submit"
-                    className="mt-4 bg-gray-800 text-white rounded-md py-2 hover:bg-gray-700 transition-all"
-                >
+                    className="mt-4 bg-slate-800 text-white rounded-md py-2 hover:bg-slate-700 transition-all cursor-pointer">
                     Log In
                 </button>
             </form>

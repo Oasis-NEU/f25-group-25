@@ -11,19 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={
-          <div>
-            <NavBar></NavBar>
-            <div className="min-h-screen flex items-center justify-center">
-            <Link 
-              to='/dashboard' 
-              className="ml-4 px-4 py-2 rounded-sm text-center shadow-2xl transition-transform hover:scale-105 hover:cursor-pointer"
-            >View my Dashboard</Link>
-            <Link 
-              to='/landing' 
-              className="ml-4 px-4 py-2 rounded-sm text-center shadow-2xl transition-transform hover:scale-105 hover:cursor-pointer"
-            >Landing Page</Link>
-          </div>
-          </div>
+          <Landing></Landing>
         }/>
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/landing" element={<Landing />} />
