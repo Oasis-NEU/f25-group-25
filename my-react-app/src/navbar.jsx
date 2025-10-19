@@ -4,7 +4,7 @@ function NavBar() {
     return (
       <div className='bg-slate-800 flex justify-center sticky top-0 z-10 w-full'>
         <div className="flex border-b-2 h-20 w-full justify-around items-center">
-        <Link to='/landing'>
+        <Link to='/'>
             <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Logo</button>
         </Link>
         {/* <Link to='/debts'>
