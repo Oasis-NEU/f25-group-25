@@ -1,6 +1,6 @@
 import NavBar from "../navbar"
 import DebtTable from "../assets/debttable"
-
+import { Link } from "react-router-dom"
 function Dashboard() {
   return <div className="flex flex-col items-center">
     <NavBar></NavBar>
@@ -27,6 +27,11 @@ function Dashboard() {
             <h1 className="mb-4 text-mainred">Money Sent</h1>
             <DebtTable></DebtTable>
         </div>
+    </div>
+    <div className="mt-12">
+        <Link to='/debts'>
+            <button className="rounded-full outline-2 w-12 h-12 text-2xl">+</button>
+        </Link>
     </div>
   </div>
 }
