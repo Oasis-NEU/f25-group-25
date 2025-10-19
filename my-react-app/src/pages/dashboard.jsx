@@ -6,7 +6,7 @@ function Dashboard() {
     <NavBar></NavBar>
     <div className="outline-2 rounded-xl mt-20 flex flex-col justify-center items-center w-2/5">
         <img className='mt-6 mb-2 object-cover rounded-full h-24 w-24 outline-2 outline-stone-900' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEd2zxEc_4IQ1jHyniHLECu15zRjkHTBJzA&s'></img>
-        <h3 className="mb-2 text-neutral-600 hover:cursor-pointer">@<span className="select-all">username</span></h3>
+        <h3 className="mb-2 text-neutral-400 hover:cursor-pointer">@<span className="select-all">username</span></h3>
         <div className="flex justify-around w-full">
             <div className="flex flex-col justify-center items-center px-4 pb-4">
                 <h2>Money owed to you</h2>
