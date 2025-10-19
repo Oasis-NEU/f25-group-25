@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Landing from "./pages/landing";
 import Settings from "./pages/settings";
+import Login from "./pages/login";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/landing" element={<Landing />} />
         <Route path='/settings' element={<Settings/>}/>
+        <Route path='/login' element={<Login/>}/>
+
       </Routes>
     </BrowserRouter>
   )
