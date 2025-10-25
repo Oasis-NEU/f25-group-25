@@ -12,7 +12,7 @@ function Landing() {
             <h1 className="text-wrap w-1/4 m-auto">Easily keep track of money you owe friends, family, coworkers, and more</h1>
         </div>
         <div className="flex justify-center mt-20">
-            <Link to='/login' className="rounded-md">
+            <Link to='/signup' className="rounded-md">
                 <button className="cursor-pointer px-12 py-3 rounded-md bg-slate-800 text-white hover:shadow-2xl hover:scale-105 hover:bg-blue-600 transition-all duration-300">
                     Get Started
                 </button>
