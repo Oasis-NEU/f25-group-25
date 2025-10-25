@@ -6,6 +6,7 @@ import Landing from "./pages/landing";
 import Settings from "./pages/settings";
 import Login from "./pages/login";
 import AddFriends from "./pages/add_contacts";
+import Signup from "./pages/signup";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/settings' element={<Settings/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/add_contacts' element={<AddFriends/>}/>
+        <Route path='/signup' element={<Signup/>}/>
       </Routes>
     </BrowserRouter>
   )
