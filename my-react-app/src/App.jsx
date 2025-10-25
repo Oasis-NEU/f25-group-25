@@ -6,6 +6,7 @@ import Landing from "./pages/landing";
 import Settings from "./pages/settings";
 import Login from "./pages/login";
 import Debts from "./pages/debts";
+import Signup from "./pages/signup";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/settings' element={<Settings/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/debts' element={<Debts/>}/>
+        <Route path='signup' element={<Signup/>}/>
       </Routes>
     </BrowserRouter>
   )
