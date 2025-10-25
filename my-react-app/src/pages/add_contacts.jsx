@@ -75,7 +75,7 @@ export default function AddFriends() {
             </div>
             <button
               onClick={handleAddFriend}
-              className="w-full md:w-auto px-8 py-3 bg-slate-800 text-white rounded-lg hover:bg-slate-700 transition font-medium"
+              className="cursor-pointer w-full md:w-auto px-8 py-3 bg-slate-800 text-white rounded-lg hover:bg-slate-700 transition font-medium"
             >
               Add Friend
             </button>
@@ -120,7 +120,7 @@ export default function AddFriends() {
                   </div>
                   <button
                     onClick={() => handleRemoveFriend(friend.id)}
-                    className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition"
+                    className="cursor-pointer p-2 text-red-600 hover:bg-red-50 rounded-lg transition"
                     title="Remove friend"
                   >
                     <X className="w-5 h-5" />

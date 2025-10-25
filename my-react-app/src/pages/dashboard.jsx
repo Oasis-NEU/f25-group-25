@@ -2,9 +2,9 @@ import NavBar from "../navbar"
 import DebtTable from "../assets/debttable"
 import { Link } from "react-router-dom"
 function Dashboard() {
-  return <div className="flex flex-col items-center">
+  return <div className="flex flex-col items-center bg-gray-200">
     <NavBar></NavBar>
-    <div className="outline-2 rounded-xl mt-20 flex flex-col justify-center items-center w-2/5">
+    <div className="bg-white outline-2 rounded-xl mt-20 flex flex-col justify-center items-center w-2/5">
         <img className='mt-6 mb-2 object-cover rounded-full h-24 w-24 outline-2 outline-stone-900' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEd2zxEc_4IQ1jHyniHLECu15zRjkHTBJzA&s'></img>
         <h3 className="mb-2 text-neutral-400 hover:cursor-pointer">@<span className="select-all">username</span></h3>
         <div className="flex justify-around w-full">
