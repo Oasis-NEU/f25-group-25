@@ -1,15 +1,15 @@
 function DebtTable() {
     return <div className="flex items-center w-full">
-    <table className='bg-white table-auto rounded-md outline-2 mx-auto [&_td]:text-center [&_td]:py-2 [&_th]:py-2 w-3/4'>
-        <thead className="bg-slate-100 border-b-2 upper font">
+    <table className='bg-white table-auto rounded-md outline-2 mx-auto [&_td]:text-center [&_td]:py-2 [&_th]:py-2 w-3/4 shadow-2xl'>
+        <thead className="bg-slate-700 border-b-2 text-white">
             <tr>
                 <th>Person</th>
                 <th>Amount</th>
                 <th>Date</th>
             </tr>
         </thead>
-        <tbody className="bg-white">
-            <tr>
+        <tbody className="bg-slate-50">
+            <tr className="">
                 <td>Richard Feng</td>
                 <td>$19.12</td>
                 <td>10/5/2025</td>
