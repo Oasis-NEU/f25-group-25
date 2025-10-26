@@ -1,7 +1,20 @@
 import NavBar from "../navbar"
 import { Link } from "react-router-dom"
+import React, { useRef } from 'react';
 
 function Settings() {
+    const fileInputRef = useRef(null);
+
+    const handleButtonClick = () => {
+        fileInputRef.current.click()
+    }
+    const handleFileChange = (event) => {
+        const selectedFile = event.target.files[0];
+        if (selectedFile) {
+            console.log('Selected file:', selectedFile.name);
+        }
+    };
+
     return <div className="bg-radial from-[#fffbf6] from-20% to-offwhite">
         <NavBar></NavBar>
         <div className="flex flex-col items-center mx-auto outline-2 w-8/12 my-12 rounded-sm bg-white">
@@ -17,7 +30,12 @@ function Settings() {
                     <img className='my-2 object-cover rounded-full h-18 w-18 outline-2 outline-stone-900' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEd2zxEc_4IQ1jHyniHLECu15zRjkHTBJzA&s'></img>
                     <h1 className="select-all cursor-pointer text-neutral-400">@username</h1>
                 </div>
-                <button className='cursor-pointer outline-2 py-2 px-4 rounded-md'>Change photo</button>
+                <input
+                    type='file'
+                    ref={fileInputRef}
+                    style={{display: "none"}}
+                    onChange={handleFileChange}/>
+                <button onClick={handleButtonClick} className='cursor-pointer outline-2 py-2 px-4 rounded-md hover:bg-slate-700 hover:text-white transition-all hover:outline-slate-700'>Change photo</button>
             </div>
             <div className="flex flex-col items-center w-2/3">
                 <input type='text' placeholder="First name" className="mt-4 w-2/3 border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-400"></input>

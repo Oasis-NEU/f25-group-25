@@ -30,7 +30,7 @@ function Dashboard() {
     </div>
     <div className="mt-12">
         <Link to='/debts'>
-            <button className="rounded-full outline-2 w-12 h-12 text-2xl">+</button>
+            <button className="cursor-pointer rounded-full outline-2 w-12 h-12 text-2xl">+</button>
         </Link>
     </div>
   </div>
