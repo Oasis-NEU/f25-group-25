@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-import NavBar from "../navbar"
+import LoginNavBar from "../login_navbar"
 
 function Landing() {
-    return <div className="flex flex-col bg-radial from-[#fffbf6] from-20% to-offwhite">
+    return <div><LoginNavBar/><div className="flex flex-col bg-radial from-[#fffbf6] from-20% to-offwhite">
         {/* <NavBar></NavBar> */}
         <div className="flex flex-col align-middle justify-center mt-40 text-center">
             <h1 className="text-4xl font-sans text-wrap w-1/3 m-auto">
@@ -30,6 +30,7 @@ function Landing() {
                 <div className="outline-2 h-80 w-full mt-4 rounded-md hover:shadow-2xl transition-all duration-200">*Insert Image*</div>
             </div>
         </div>
+    </div>
     </div>
 }
 
