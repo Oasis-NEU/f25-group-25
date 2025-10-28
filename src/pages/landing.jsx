@@ -5,6 +5,9 @@ function Landing() {
     return <div><LoginNavBar/><div className="flex flex-col bg-radial from-[#fffbf6] from-20% to-offwhite">
         {/* <NavBar></NavBar> */}
         <div className="flex flex-col align-middle justify-center mt-40 text-center">
+            <h1 className="text-6xl font-bold tracking-wide text-slate-900 drop-shadow-sm">
+                Debtly
+            </h1>
             <h1 className="text-4xl font-sans text-wrap w-1/3 m-auto">
                 Never forget your debts again
             </h1>
