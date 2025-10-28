@@ -25,12 +25,12 @@ function Landing() {
             <div className="flex flex-col mt-40 ml-40 w-1/3 mb-20 pb-20 hover:scale-[102%] transition-all duration-300">
                 <p className="pb-4 text-2xl text-shadow-xs">Smart Balance Calculation</p>
                 <p className="text-wrap text-lg">Mutual debts cancel eachother out automatically, allowing you to get a clear understanding of what you owe</p>
-                <div className="outline-2 h-80 w-full mt-4 rounded-md hover:shadow-2xl transition-all duration-200"><img src="/public\\placeholder2.jpeg" alt="Smart balance placeholder" className="h-full w-full object-cover" /></div>
+                <div className="outline-2 h-80 w-full mt-4 rounded-md hover:shadow-2xl transition-all duration-200"><img src="/placeholder2.jpeg" alt="Smart balance placeholder" className="h-full w-full object-cover"/></div>
             </div>
             <div className="flex flex-col mt-40 ml-40 w-1/3 mb-20 pb-20 hover:scale-[102%] transition-all duration-300">
                 <p className="pb-4 text-2xl text-shadow-xs">Simple & Direct</p>
                 <p className="text-wrap text-lg">Link third party payment platforms such as PayPal, Cash App, and Venmo to pay anyone in an instant</p>
-                <div className="outline-2 h-80 w-full mt-4 rounded-md hover:shadow-2xl transition-all duration-200"><img src="/public\\placeholder1.jpg" alt="Smart balance placeholder" className="h-full w-full object-cover" /></div>
+                <div className="outline-2 h-80 w-full mt-4 rounded-md hover:shadow-2xl transition-all duration-200"><img src="/placeholder1.jpg"alt="Simple & Direct placeholder"className="h-full w-full object-cover"/></div>
             </div>
         </div>
     </div>
