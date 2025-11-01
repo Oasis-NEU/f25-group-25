@@ -2,8 +2,7 @@ import { Link } from "react-router-dom"
 import LoginNavBar from "../login_navbar"
 
 function Landing() {
-    return <div><LoginNavBar/><div className="flex flex-col bg-radial from-[#fffbf6] from-20% to-offwhite">
-        {/* <NavBar></NavBar> */}
+    return <div><LoginNavBar></LoginNavBar><div className="flex flex-col bg-radial from-[#fffbf6] from-20% to-offwhite">
         <div className="flex flex-col align-middle justify-center mt-40 text-center">
             <h1 className="text-4xl font-sans text-wrap w-1/3 m-auto">
                 Never forget your debts again

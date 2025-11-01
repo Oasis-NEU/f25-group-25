@@ -9,6 +9,7 @@ import AddFriends from "./pages/add_contacts";
 import Signup from "./pages/signup";
 import Debts from './pages/debts'
 import { DebtProvider } from './contexts/DebtContext'
+import ForgotPassword from "./pages/ForgotPass";
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/add_contacts' element={<AddFriends />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/debts' element={<Debts />} />
+          <Route path='/forgot' element={<ForgotPassword/>}/>
         </Routes>
       </DebtProvider>
     </BrowserRouter>
