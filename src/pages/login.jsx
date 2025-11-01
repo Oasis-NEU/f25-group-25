@@ -1,11 +1,12 @@
 import { useState } from "react";
 import NavBar from "../navbar";
+import { Link } from "react-router-dom";
 function Login() {
     const [showPass, setShowPass] = useState(false)
     
     return (
     <div>
-        <NavBar/>
+        {/* <NavBar/> */}
         <div className="bg-slate-50 outline-2 rounded-xl mt-20 flex flex-col justify-center items-center w-2/5 mx-auto p-10 shadow-md">
             <h1 className="text-2xl font-semibold mb-6">Log in</h1>
             <form className="flex flex-col w-3/4 space-y-4">
@@ -30,7 +31,9 @@ function Login() {
                         />
                         <span className="cursor-pointer">Show Password</span>
                     </label>
-                    <p className='underline cursor-pointer text-sm'>Forgot password?</p>
+                    <Link to='/forgot'>
+                        <p className='underline cursor-pointer text-sm'>Forgot password?</p>
+                    </Link>
                 </div>
 
                 <button

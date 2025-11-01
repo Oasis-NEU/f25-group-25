@@ -6,7 +6,6 @@ const Signup = () =>{
     
     return (
     <div>
-        <NavBar/>
         <div className="bg-slate-50 outline-2 rounded-xl mt-20 flex flex-col justify-center items-center w-2/5 mx-auto p-10 shadow-md">
             <h1 className="text-2xl font-semibold mb-6">Sign Up</h1>
             <form className="flex flex-col w-3/4 space-y-4">
@@ -18,6 +17,11 @@ const Signup = () =>{
                 <input
                     type="text"
                     placeholder="Last name"
+                    className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                />
+                <input
+                    type="text"
+                    placeholder="Email"
                     className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-400"
                 />
                 <input
