@@ -1,4 +1,4 @@
-import NavBar from "../navbar"
+import NavBar from '../assets/navbar';
 
 const ForgotPassword = () => {
     return(

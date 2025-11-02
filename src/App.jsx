@@ -1,4 +1,3 @@
-import NavBar from "./navbar"
 import Dashboard from "./pages/dashboard"
 import './App.css';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"

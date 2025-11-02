@@ -7,7 +7,7 @@ function Landing() {
             <h1 className="text-4xl font-sans text-wrap w-1/3 m-auto">
                 Never forget your debts again
             </h1>
-            <div className="h-[2px] bg-gradient-to-r from-transparent via-slate-800 to-transparent my-4 w-1/3 mx-auto"></div>
+            <div className="h-0.5 bg-linear-to-r from-transparent via-slate-800 to-transparent my-4 w-1/3 mx-auto"></div>
             <h1 className="text-wrap w-1/4 m-auto">Easily keep track of money you owe friends, family, coworkers, and more</h1>
         </div>
         <div className="flex justify-center mt-20">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { UserPlus, Search, X } from 'lucide-react';
-import NavBar from "../navbar";
+import NavBar from '../assets/navbar';
 
 export default function AddFriends() {
   const [searchTerm, setSearchTerm] = useState('');

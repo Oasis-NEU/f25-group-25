@@ -1,5 +1,5 @@
 import { useState } from "react";
-import NavBar from "../navbar";
+import NavBar from '../assets/navbar';
 import { Link } from "react-router-dom";
 function Login() {
     const [showPass, setShowPass] = useState(false)

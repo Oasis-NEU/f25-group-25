@@ -1,4 +1,4 @@
-import NavBar from "../navbar"
+import NavBar from '../assets/navbar';
 import { Link } from "react-router-dom"
 import React, { useRef } from 'react';
 
@@ -44,8 +44,8 @@ function Settings() {
 
             </div>
             <div className="flex justify-center my-8">
-                <button className="transition-all hover:shadow-xl hover:scale-105 cursor-pointer w-32 mr-8 rounded-2xl py-2 bg-[#018bfe] text-white ">Venmo</button>
-                <button className="transition-all hover:shadow-xl hover:scale-105 cursor-pointer w-32 rounded-2xl py-2 bg-[#01e010] text-white">Cash App</button>
+                {/* <button className="transition-all hover:shadow-xl hover:scale-105 cursor-pointer w-32 mr-8 rounded-2xl py-2 bg-[#018bfe] text-white ">Venmo</button>
+                <button className="transition-all hover:shadow-xl hover:scale-105 cursor-pointer w-32 rounded-2xl py-2 bg-[#01e010] text-white">Cash App</button> */}
             </div>
             <div className="flex mt-auto my-12">
                 <Link to='/dashboard'>

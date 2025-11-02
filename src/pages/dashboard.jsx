@@ -1,4 +1,4 @@
-import NavBar from "../navbar"
+import NavBar from '../assets/navbar';
 import DebtTable from "../assets/debttable"
 import { Link } from "react-router-dom"
 function Dashboard() {
