@@ -5,16 +5,15 @@ function LoginNavBar() {
       <div className='bg-slate-800 flex justify-center sticky top-0 z-10 w-full'>
         <div className="flex border-b-2 h-20 w-full justify-around items-center">
         <Link to='/login'>
-            <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Logo</button>
+            <button className="hover:bg-slate-700 rounded-full hover:scale-[1.10] text-white transition-all ease-in-out cursor-pointer">
+                <img src='public/Colored_logo.png' className="h-8 w-8 rounded-full outline-2"></img>
+            </button>
         </Link>
         {/* <Link to='/debts'>
             <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Debts</button>
         </Link> */}
         <Link>
             <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Log In</button>
-        </Link>
-        <Link to='/add_contacts'>
-            <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Add Friends</button>
         </Link>
         <Link to='/signup'>
             <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Sign Up</button>

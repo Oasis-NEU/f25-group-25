@@ -12,9 +12,6 @@ function NavBar() {
         {/* <Link to='/debts'>
             <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Debts</button>
         </Link> */}
-        <Link>
-            <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Accounts</button>
-        </Link>
         <Link to='/dashboard'>
             <button className="hover:bg-slate-700 rounded-md hover:scale-[1.05] px-8 py-2 text-white transition-all ease-in-out cursor-pointer">Dashboard</button>
         </Link>
