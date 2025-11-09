@@ -8,6 +8,7 @@ import AddFriends from "./pages/add_contacts";
 import Signup from "./pages/signup";
 import Debts from './pages/debts'
 import { DebtProvider } from './contexts/DebtContext'
+import TestSupabase from './components/TestSupabase'
 import ForgotPassword from "./pages/ForgotPass";
 
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <DebtProvider>
+        <TestSupabase />
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/dashboard" element={<Dashboard />} />
