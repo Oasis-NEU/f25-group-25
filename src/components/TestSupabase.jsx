@@ -83,7 +83,7 @@ export default function TestSupabase() {
       boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
       zIndex: 1000
     }}>
-      <h2 style={{ margin: '0 0 10px 0' }}>Supabase Test</h2>
+      {/* <h2 style={{ margin: '0 0 10px 0' }}>Supabase Test</h2>
       {error ? (
         <p style={{ color: 'red', margin: '5px 0' }}>Error: {error}</p>
       ) : (
@@ -92,7 +92,7 @@ export default function TestSupabase() {
       <div>
         <h3 style={{ margin: '10px 0 5px 0' }}>Auth Status:</h3>
         <p style={{ margin: '0' }}>{session ? 'Logged in' : 'Not logged in'}</p>
-      </div>
+      </div> */}
     </div>
   );
 }
